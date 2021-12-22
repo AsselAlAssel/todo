@@ -13,6 +13,7 @@ class ItemComponent extends Component {
               alt=""
               onClick={this.props.handelDelete}
               id={this.props.id}
+              alt="de"
             />
 
             <img
@@ -20,6 +21,7 @@ class ItemComponent extends Component {
               alt=""
               onClick={this.props.handelCheck}
               id={this.props.id}
+              alt="che"
             />
           </div>
         </div>

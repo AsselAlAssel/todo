@@ -42,7 +42,7 @@ class App extends Component {
               id="todo"
               onChange={(e) => (this.item = e.target.value)}
             />
-           <input type="image"  src={add} />
+           <input type="image"    alt="add" src={add} />
                     </form>
         </div>
         <div>
